@@ -1,0 +1,36 @@
+public function home() {
+        Log::info(__METHOD__);
+
+        if (empty($this->session_user->user_id)) {
+            header('HTTP/1.1 403 Not authorized');
+            return ['status' => 'failure', 'message' => 'not authorized'];
+        }
+        
+        $data = [
+                'user_id' => $this->session_user->user_id,
+                'first_name' => Utils::format_name($this->session_user->first_name),
+                'last_name' => Utils::format_name($this->session_user->last_name),
+                'full_name' => Utils::format_name($this->session_user->display_name),
+                'profile_pic_url' => $this->session_user->profile_pic_url,
+                'user_title' => $this->session_user->user_title,
+                'require_tour' => $this->session_user->require_tour,
+                'user_skills' => $this->user_model->skill_cloud(),
+                'project_records' => $this->user_model->projects->learnings_summary(),
+                'user_tags' => $this->user_model->all_topics(),
+                'user_learnings_count' => $this->user_model->learnings->count(),
+                'my_email_id' => $this->session_user->primary_email_id,
+                'email_contacts' => $this->user_model->email_contacts(),
+                'user_summary' => $this->user_model->get_user_summary(),
+                'user_work_experience' => $this->user_model->get_user_work_experience(),
+                'user_education' => $this->user_model->get_user_education(),
+                'user_accomplishments' => $this->user_model->get_user_accomplishments(),
+                'user_affiliations' => $this->user_model->get_user_affiliations(),
+                'user_languages' => $this->user_model->get_user_languages(),
+                'user_social_profiles' => $this->user_model->get_user_social_profiles(),
+            ];
+        
+        return [
+            'status' => 'success',
+            'data' => $data
+        ];
+    }

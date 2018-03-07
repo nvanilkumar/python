@@ -1,0 +1,536 @@
+(
+    [user_id] => 35
+    [first_name] => Andy Flower
+    [last_name] => 
+    [full_name] => Andy Flower 
+    [profile_pic_url] => http://localhost/themes/images/user.png
+    [user_title] => 
+    [require_tour] => 2
+    [user_skills] => Array
+        (
+            [0] => Array
+                (
+                    [tag] => design
+                    [time_spent] => 7491
+                    [points] => 26.63
+                    [level] => 2
+                    [progress_between_levels] => 57
+                    [rank] => 1
+                )
+
+            [1] => Array
+                (
+                    [tag] => sketch
+                    [time_spent] => 7312
+                    [points] => 24.84
+                    [level] => 2
+                    [progress_between_levels] => 52
+                    [rank] => 1
+                )
+
+            [2] => Array
+                (
+                    [tag] => php
+                    [time_spent] => 3698
+                    [points] => 16.01
+                    [level] => 2
+                    [progress_between_levels] => 28
+                    [rank] => 1
+                )
+
+            [3] => Array
+                (
+                    [tag] => html5
+                    [time_spent] => 3297
+                    [points] => 12.00
+                    [level] => 2
+                    [progress_between_levels] => 17
+                    [rank] => 1
+                )
+
+            [4] => Array
+                (
+                    [tag] => jquery
+                    [time_spent] => 3297
+                    [points] => 12.00
+                    [level] => 2
+                    [progress_between_levels] => 17
+                    [rank] => 1
+                )
+
+            [5] => Array
+                (
+                    [tag] => ruby
+                    [time_spent] => 1705
+                    [points] => 14.67
+                    [level] => 2
+                    [progress_between_levels] => 24
+                    [rank] => 1
+                )
+
+            [6] => Array
+                (
+                    [tag] => javascript
+                    [time_spent] => 344
+                    [points] => 3.44
+                    [level] => 1
+                    [progress_between_levels] => 57
+                    [rank] => 2
+                )
+
+            [7] => Array
+                (
+                    [tag] => pakodi
+                    [time_spent] => 216
+                    [points] => 2.16
+                    [level] => 1
+                    [progress_between_levels] => 36
+                    [rank] => 2
+                )
+
+            [8] => Array
+                (
+                    [tag] => safari
+                    [time_spent] => 202
+                    [points] => 2.02
+                    [level] => 1
+                    [progress_between_levels] => 34
+                    [rank] => 2
+                )
+
+            [9] => Array
+                (
+                    [tag] => db
+                    [time_spent] => 156
+                    [points] => 1.56
+                    [level] => 1
+                    [progress_between_levels] => 26
+                    [rank] => 2
+                )
+
+            [10] => Array
+                (
+                    [tag] => apps
+                    [time_spent] => 156
+                    [points] => 1.56
+                    [level] => 1
+                    [progress_between_levels] => 26
+                    [rank] => 2
+                )
+
+            [11] => Array
+                (
+                    [tag] => oracle
+                    [time_spent] => 156
+                    [points] => 1.56
+                    [level] => 1
+                    [progress_between_levels] => 26
+                    [rank] => 2
+                )
+
+            [12] => Array
+                (
+                    [tag] => tennis
+                    [time_spent] => 92
+                    [points] => 0.92
+                    [level] => 1
+                    [progress_between_levels] => 15
+                    [rank] => 2
+                )
+
+            [13] => Array
+                (
+                    [tag] => cricket
+                    [time_spent] => 92
+                    [points] => 0.92
+                    [level] => 1
+                    [progress_between_levels] => 15
+                    [rank] => 2
+                )
+
+            [14] => Array
+                (
+                    [tag] => closure
+                    [time_spent] => 45
+                    [points] => 0.45
+                    [level] => 1
+                    [progress_between_levels] => 8
+                    [rank] => 2
+                )
+
+            [15] => Array
+                (
+                    [tag] => python
+                    [time_spent] => 8
+                    [points] => 0.08
+                    [level] => 1
+                    [progress_between_levels] => 1
+                    [rank] => 2
+                )
+
+            [16] => Array
+                (
+                    [tag] => css3
+                    [time_spent] => 0
+                    [points] => 0.00
+                    [level] => 1
+                    [progress_between_levels] => 0
+                    [rank] => 2
+                )
+
+            [17] => Array
+                (
+                    [tag] => mail
+                    [time_spent] => 0
+                    [points] => 0.00
+                    [level] => 1
+                    [progress_between_levels] => 0
+                    [rank] => 2
+                )
+
+        )
+
+    [project_records] => Array
+        (
+            [0] => Array
+                (
+                    [user_project_id] => 36
+                    [title] => General Learning
+                    [creation_type] => A
+                    [description] => 
+                    [status] => 
+                    [time_spent] => 11605
+                    [documents_read] => 15
+                    [tags] => design,sketch,ruby,javascript,python,Array,jquery,php,html5,pakodi,db,apps,oracle,tennis,cricket,safari,closure,mail
+                )
+
+            [1] => Array
+                (
+                    [user_project_id] => 37
+                    [title] => First Collection
+                    [creation_type] => E
+                    [description] => 
+                    [status] => 
+                    [time_spent] => 1815
+                    [documents_read] => 3
+                    [tags] => ruby,design,sketch
+                )
+
+            [2] => Array
+                (
+                    [user_project_id] => 38
+                    [title] => Second Collection changed
+                    [creation_type] => E
+                    [description] => Is this really changing? Are you sure it's changing?
+                    [status] => 
+                    [time_spent] => 1548
+                    [documents_read] => 2
+                    [tags] => design,sketch
+                )
+
+            [3] => Array
+                (
+                    [user_project_id] => 39
+                    [title] => Test Collection
+                    [creation_type] => E
+                    [description] => Testing the sample is always wonderful.   
+                    [status] => 
+                    [time_spent] => 1464
+                    [documents_read] => 1
+                    [tags] => design,sketch
+                )
+
+            [4] => Array
+                (
+                    [user_project_id] => 41
+                    [title] => Testing New Project
+                    [creation_type] => M
+                    [description] => Checking if a new project is created properly
+                    [status] => 
+                    [time_spent] => 
+                    [documents_read] => 0
+                    [tags] => 
+                )
+
+            [5] => Array
+                (
+                    [user_project_id] => 42
+                    [title] => Testing another new project
+                    [creation_type] => M
+                    [description] => 
+                    [status] => 
+                    [time_spent] => 
+                    [documents_read] => 0
+                    [tags] => 
+                )
+
+            [6] => Array
+                (
+                    [user_project_id] => 43
+                    [title] => New default project
+                    [creation_type] => M
+                    [description] => This is a new project created to be used as default project
+                    [status] => 
+                    [time_spent] => 
+                    [documents_read] => 0
+                    [tags] => 
+                )
+
+            [7] => Array
+                (
+                    [user_project_id] => 44
+                    [title] => Another new default collection
+                    [creation_type] => M
+                    [description] => 
+                    [status] => 
+                    [time_spent] => 
+                    [documents_read] => 0
+                    [tags] => 
+                )
+
+        )
+
+    [user_tags] => Array
+        (
+            [0] => Array
+                (
+                    [user_tag_id] => 63
+                    [tag] => mail
+                )
+
+            [1] => Array
+                (
+                    [user_tag_id] => 61
+                    [tag] => closure
+                )
+
+            [2] => Array
+                (
+                    [user_tag_id] => 57
+                    [tag] => oracle
+                )
+
+            [3] => Array
+                (
+                    [user_tag_id] => 56
+                    [tag] => apps
+                )
+
+            [4] => Array
+                (
+                    [user_tag_id] => 55
+                    [tag] => db
+                )
+
+            [5] => Array
+                (
+                    [user_tag_id] => 54
+                    [tag] => pakodi
+                )
+
+            [6] => Array
+                (
+                    [user_tag_id] => 47
+                    [tag] => javascript
+                )
+
+            [7] => Array
+                (
+                    [user_tag_id] => 48
+                    [tag] => php
+                )
+
+            [8] => Array
+                (
+                    [user_tag_id] => 60
+                    [tag] => safari
+                )
+
+            [9] => Array
+                (
+                    [user_tag_id] => 59
+                    [tag] => cricket
+                )
+
+            [10] => Array
+                (
+                    [user_tag_id] => 58
+                    [tag] => tennis
+                )
+
+            [11] => Array
+                (
+                    [user_tag_id] => 45
+                    [tag] => html5
+                )
+
+            [12] => Array
+                (
+                    [user_tag_id] => 53
+                    [tag] => jquery
+                )
+
+            [13] => Array
+                (
+                    [user_tag_id] => 52
+                    [tag] => sketch
+                )
+
+            [14] => Array
+                (
+                    [user_tag_id] => 51
+                    [tag] => design
+                )
+
+            [15] => Array
+                (
+                    [user_tag_id] => 49
+                    [tag] => ruby
+                )
+
+            [16] => Array
+                (
+                    [user_tag_id] => 50
+                    [tag] => python
+                )
+
+            [17] => Array
+                (
+                    [user_tag_id] => 46
+                    [tag] => css3
+                )
+
+        )
+
+    [user_learnings_count] => 17
+    [my_email_id] => andy@flower.com
+    [email_contacts] => Array
+        (
+        )
+
+    [user_summary] => Array
+        (
+            [summary] => This is new summary. Edited here. Edited again! And again! And again!! This is abnormally long career objective created for testing purposes. Ideally one should not have this long career objective which takes one's career to read your objective. So beware! Keep it short and simple. And make it to the point, so that readers would review your resume further to know more about you. Otherwise they will feel tired after reading the objective itself.
+            [intro_video_id] => 
+            [location] => Rajolu, India
+            [hobbies] => Talking nonsense, walking
+        )
+
+    [user_work_experience] => Array
+        (
+            [0] => Array
+                (
+                    [work_id] => 7
+                    [position] => Banana
+                    [institution] => Potato
+                    [location] => Guntur, India
+                    [from_date] => 2017-12-04
+                    [to_date] => 
+                    [is_currently_working] => 1
+                    [description] => 
+                )
+
+            [1] => Array
+                (
+                    [work_id] => 5
+                    [position] => Pakodi Maker
+                    [institution] => Paratha Company
+                    [location] => Hyderabad, India
+                    [from_date] => 2017-12-04
+                    [to_date] => 
+                    [is_currently_working] => 1
+                    [description] => I am the pakodiest pakodi maker
+                )
+
+            [2] => Array
+                (
+                    [work_id] => 6
+                    [position] => Aloo fry
+                    [institution] => Chips
+                    [location] => Bangalore, India
+                    [from_date] => 2009-12-01
+                    [to_date] => 2011-12-26
+                    [is_currently_working] => 0
+                    [description] => DO you always work with Potatoes everywhere? Seems interesting! Do you like potatoes or what!? May be you need more varieties of vegetables.
+                )
+
+        )
+
+    [user_education] => Array
+        (
+        )
+
+    [user_accomplishments] => Array
+        (
+        )
+
+    [user_affiliations] => Array
+        (
+        )
+
+    [user_languages] => Array
+        (
+            [0] => Array
+                (
+                    [language_id] => 3
+                    [language] => Hindi
+                    [can_read] => 1
+                    [can_write] => 1
+                    [can_speak] => 1
+                )
+
+            [1] => Array
+                (
+                    [language_id] => 14
+                    [language] => Telugu
+                    [can_read] => 1
+                    [can_write] => 0
+                    [can_speak] => 1
+                )
+
+            [2] => Array
+                (
+                    [language_id] => 15
+                    [language] => Oriya
+                    [can_read] => 1
+                    [can_write] => 0
+                    [can_speak] => 1
+                )
+
+            [3] => Array
+                (
+                    [language_id] => 16
+                    [language] => Bengali
+                    [can_read] => 1
+                    [can_write] => 0
+                    [can_speak] => 1
+                )
+
+            [4] => Array
+                (
+                    [language_id] => 17
+                    [language] => English
+                    [can_read] => 1
+                    [can_write] => 1
+                    [can_speak] => 1
+                )
+
+        )
+
+    [user_social_profiles] => Array
+        (
+            [0] => Array
+                (
+                    [profile_id] => 1
+                    [url] => www.facebook.com/andy.flower
+                )
+
+            [1] => Array
+                (
+                    [profile_id] => 2
+                    [url] => twitter.com/andy
+                )
+
+        )
+
+)
