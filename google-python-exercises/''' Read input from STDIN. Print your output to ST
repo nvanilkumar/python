@@ -1,0 +1,48 @@
+''' Read input from STDIN. Print your output to STDOUT '''
+    #Use input() to read input from STDIN and use print to write your output to STDOUT
+from sys import stdin
+
+def main():
+
+ # Write code here 
+ 
+ number1 =int(stdin.readline())
+   
+ 
+ number2 =int(stdin.readline())
+ print number1+number2
+
+main()
+
+
+
+''' Read input from STDIN. Print your output to STDOUT '''
+    #Use input() to read input from STDIN and use print to write your output to STDOUT
+from sys import stdin
+def main():
+
+ # Write code here
+ number1 =int(stdin.readline())
+   
+ 
+ number2 =int(stdin.readline())
+ number3 =int(stdin.readline())
+ 
+ list =[number1,number2,number3];
+ list.append(number1)
+ list.append(number2)
+ list.append(number3)
+ print max(list)
+
+
+main()
+
+--------
+from sys import stdin
+def main():
+    
+
+ # Write code here 
+  number1 = stdin.readline()
+  print number1
+
