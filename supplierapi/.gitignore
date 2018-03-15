@@ -1,0 +1,8 @@
+/vendor
+.env.example
+readme.md
+/nbproject/private/
+nbproject/project.properties
+nbproject/project.xml
+package.xml
+.idea

@@ -1,0 +1,86 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Surveys API",
+        "description": "This is a survey API for suppliers.",
+        "contact": {
+            "name": "API Support",
+            "url": "http://www.swagger.io/support",
+            "email": "support@swagger.io"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1/.01"
+    },
+    "host": "localhost",
+    "basePath": "/surveyapisample/public/api/",
+    "schemes": [
+        "http"
+    ],
+    "paths": {
+        "v1/audiences": {
+            "get": {
+                "summary": "List of all the audiences ",
+                "description": "Returns all the audiences",
+                "produces": [
+                    "application/json",
+                    "text/html"
+                ],
+                "responses": {
+                    "200": {
+                        "description": " response of audiences list",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/audiences"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Error"
+                    }
+                }
+            }
+        },
+        "v1/audiences/{audienceId}": {
+            "get": {
+                "summary": "List of all the audiences ",
+                "description": "Returns all the audiences",
+                "produces": [
+                    "application/json",
+                    "text/html"
+                ],
+                "parameters": [
+                    {
+                        "name": "audienceId",
+                        "in": "path",
+                        "description": "id of audience",
+                        "required": true,
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        },
+                        "collectionFormat": "csv"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": " response of audiences list",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/audiences"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Error"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {}
+}

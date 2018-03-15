@@ -1,0 +1,34 @@
+version: 0.0
+os: linux
+files:
+  - source: /supplier-api
+    destination: /var/www/supplier-api
+  - source: /env
+    destination: /var/www/supplier-api/
+permissions:
+  - object: /var/www
+    pattern: "supplier-api"
+    owner: nobody
+    group: nobody
+    mode: 755
+  - object: /var/www/supplier-api
+    owner: nobody
+    group: nobody
+    mode: 755
+    type:
+    - directory
+  - object: /var/www/supplier-api
+    owner: nobody
+    group: nobody
+    mode: 644
+    type:
+    - file
+hooks:
+  ApplicationStop:
+    - location: bin/deregister_from_elb.sh
+  BeforeInstall:
+    - location: bin/untar_all_tars.sh
+  AfterInstall:
+    - location: finalize_installation.sh
+  ApplicationStart:
+    - location: bin/register_with_elb.sh
